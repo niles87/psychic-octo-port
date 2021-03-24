@@ -1,12 +1,18 @@
 import React from 'react';
 import Nav from '../Nav';
 
-const Header = () => {
+const Header = (props) => {
   return (
-    <div>
-      <h2>Niles Bingham</h2>
-      <Nav />
-    </div>
+    <header>
+      <a href='/'>
+        <h2>Niles Bingham</h2>
+      </a>
+      <Nav
+        setCurrentSection={props.setCurrentSection}
+        sections={props.sections}
+        currentSection={props.currentSection}
+      />
+    </header>
   );
 };
 
