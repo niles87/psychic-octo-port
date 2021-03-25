@@ -162,6 +162,27 @@ textarea {
   padding: 5px;
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p {
+  margin: 10px;
+}
+
+footer div {
+  margin: 10px;
+}
+
+footer div a {
+  padding: 10px;
+}
+
 .container {
   width: 85%;
   max-width: 1200px;
