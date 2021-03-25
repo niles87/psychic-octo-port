@@ -3,7 +3,7 @@ import Nav from '../Nav';
 
 const Header = (props) => {
   return (
-    <header>
+    <header className='flex-row space-between'>
       <a href='/'>
         <h2>Niles Bingham</h2>
       </a>
