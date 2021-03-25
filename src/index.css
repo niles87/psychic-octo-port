@@ -59,6 +59,7 @@ h2 {
 
 h3 {
   font-size: 1.75rem;
+  margin-bottom: 10px;
 }
 
 h4 {
@@ -271,4 +272,18 @@ a {
 
 .active {
   color: var(--secondary);
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  overflow: hidden;
+  shape-outside: circle();
+  float: left;
+  margin-right: 20px;
+}
+
+.circle img {
+  width: 200px;
 }
