@@ -12,6 +12,7 @@ const Nav = (props) => {
               currentSection === title ? 'nav-item active' : 'nav-item'
             }
             onClick={() => setCurrentSection(title)}
+            key={title}
           >
             {capitalizeFirstLetter(title)}
           </li>
