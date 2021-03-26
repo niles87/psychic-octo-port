@@ -1,9 +1,13 @@
 import React from 'react';
+import { projects } from '../../utils/projects';
+import Project from '../Project';
 
 const Portfolio = () => {
   return (
-    <section>
-      <p>Portfolio component</p>
+    <section className='container'>
+      {projects.map((project) => (
+        <Project key={project.title} project={project} />
+      ))}
     </section>
   );
 };
