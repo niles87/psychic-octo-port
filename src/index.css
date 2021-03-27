@@ -1,20 +1,12 @@
-main {
-  margin: 0 auto;
-  max-width: 90%;
-}
-
 :root {
   --primary: #17bebb;
   --secondary: #cd5334;
   --tertiary: #edb88b;
   --light: #fad8d6;
-  --dark: #2e282a;
+  --dark: #272626;
   --darker: #111111;
   --gradient: linear-gradient(to right, #edb88b, #cd5334);
   --error: rgb(228, 46, 1);
-  --spacing-one: calc(1rem * 0.5);
-  --spacing-two: calc(1rem);
-  --spacing-five: calc(2.5rem);
 }
 
 * {
@@ -50,6 +42,11 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: #a9a9a9;
   border-radius: 10px;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 90%;
 }
 
 h1,
@@ -121,14 +118,6 @@ button:hover {
 button[disabled] {
   cursor: default;
   opacity: 0.8;
-}
-
-img {
-  max-width: 100%;
-}
-
-span[role='img'] {
-  cursor: default;
 }
 
 form {
@@ -204,23 +193,7 @@ footer div a {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
-}
-
-.space-between {
   justify-content: space-between;
-}
-
-.flex-end {
-  justify-content: flex-end;
-}
-
-a {
-  border-radius: 5px;
-  color: var(--primary);
-  font-weight: 600;
-  padding: 2px 4px;
-  margin-left: -2px;
-  margin-right: -2px;
 }
 
 .error-text {
@@ -271,4 +244,26 @@ a {
 .tile-footer {
   display: flex;
   justify-content: space-evenly;
+}
+
+.resume {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.resume-container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume-container div {
+  margin: 0 50px;
+}
+
+.skills h3 {
+  text-align: center;
 }
