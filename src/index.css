@@ -8,7 +8,7 @@ main {
   --secondary: #cd5334;
   --tertiary: #edb88b;
   --light: #fad8d6;
-  --dark: #2e282a;
+  --dark: #272626;
   --darker: #111111;
   --gradient: linear-gradient(to right, #edb88b, #cd5334);
   --error: rgb(228, 46, 1);
@@ -271,4 +271,16 @@ a {
 .tile-footer {
   display: flex;
   justify-content: space-evenly;
+}
+
+.resume {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.resume div {
+  margin-bottom: 50px;
 }
