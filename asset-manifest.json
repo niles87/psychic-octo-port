@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/psychic-octo-port/static/css/main.183b0fcf.chunk.css",
-    "main.js": "/psychic-octo-port/static/js/main.67be2974.chunk.js",
-    "main.js.map": "/psychic-octo-port/static/js/main.67be2974.chunk.js.map",
+    "main.js": "/psychic-octo-port/static/js/main.2f5c09b2.chunk.js",
+    "main.js.map": "/psychic-octo-port/static/js/main.2f5c09b2.chunk.js.map",
     "runtime-main.js": "/psychic-octo-port/static/js/runtime-main.1fb2f697.js",
     "runtime-main.js.map": "/psychic-octo-port/static/js/runtime-main.1fb2f697.js.map",
     "static/js/2.fa2d5e9b.chunk.js": "/psychic-octo-port/static/js/2.fa2d5e9b.chunk.js",
     "static/js/2.fa2d5e9b.chunk.js.map": "/psychic-octo-port/static/js/2.fa2d5e9b.chunk.js.map",
     "index.html": "/psychic-octo-port/index.html",
-    "precache-manifest.7300b272b5cfa9a9d28c8f219e1f5532.js": "/psychic-octo-port/precache-manifest.7300b272b5cfa9a9d28c8f219e1f5532.js",
+    "precache-manifest.735529afddcd2e941c8648e83410697b.js": "/psychic-octo-port/precache-manifest.735529afddcd2e941c8648e83410697b.js",
     "service-worker.js": "/psychic-octo-port/service-worker.js",
     "static/css/main.183b0fcf.chunk.css.map": "/psychic-octo-port/static/css/main.183b0fcf.chunk.css.map",
     "static/js/2.fa2d5e9b.chunk.js.LICENSE.txt": "/psychic-octo-port/static/js/2.fa2d5e9b.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.1fb2f697.js",
     "static/js/2.fa2d5e9b.chunk.js",
     "static/css/main.183b0fcf.chunk.css",
-    "static/js/main.67be2974.chunk.js"
+    "static/js/main.2f5c09b2.chunk.js"
   ]
 }

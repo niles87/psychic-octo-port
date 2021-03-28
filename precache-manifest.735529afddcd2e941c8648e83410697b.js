@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e54a21ff5a36f23d79a549bf848d95de",
+    "revision": "24d77dbe87f7586e9ae3f78fcdb449d3",
     "url": "/psychic-octo-port/index.html"
   },
   {
-    "revision": "602e6dea15f96d01aec5",
+    "revision": "5e38df2726f78b19230c",
     "url": "/psychic-octo-port/static/css/main.183b0fcf.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/psychic-octo-port/static/js/2.fa2d5e9b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "602e6dea15f96d01aec5",
-    "url": "/psychic-octo-port/static/js/main.67be2974.chunk.js"
+    "revision": "5e38df2726f78b19230c",
+    "url": "/psychic-octo-port/static/js/main.2f5c09b2.chunk.js"
   },
   {
     "revision": "7cc747cfa0dfc178b61e",

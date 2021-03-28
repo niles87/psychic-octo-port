@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/psychic-octo-port/precache-manifest.7300b272b5cfa9a9d28c8f219e1f5532.js"
+  "/psychic-octo-port/precache-manifest.735529afddcd2e941c8648e83410697b.js"
 );
 
 self.addEventListener('message', (event) => {
